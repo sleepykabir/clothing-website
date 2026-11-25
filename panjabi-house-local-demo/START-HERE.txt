@@ -1,0 +1,17 @@
+PANJABI HOUSE — LOCAL DEMO
+
+QUICK START (Windows)
+1. Extract this ZIP to a normal folder.
+2. Double-click START-DEMO.bat.
+3. Your browser should open http://localhost:8000. If it does not, open that address manually.
+4. Add a product to the bag and place a test Cash on Delivery order. Use fake/test contact details.
+5. Click “Owner order dashboard (local demo)” in the footer, or open http://localhost:8000/admin.html.
+
+If START-DEMO.bat says Python was not found, install Python from https://www.python.org/downloads/ and tick “Add Python to PATH”, or open index.html directly for a visual preview (but sharing orders between pages may not work when opened directly).
+
+DEMO LIMITATIONS
+- Orders are saved only in this browser on this computer (localStorage).
+- No Supabase, deployment, login, online payment, SMS, or real order notifications.
+- The local demo admin dashboard has no password; do not use it with real customer data.
+- Delivery is ৳70 inside Dhaka and ৳130 outside Dhaka.
+- The online-ready Supabase files are retained for later setup.
